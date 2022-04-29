@@ -16,20 +16,24 @@ header{
     justify-content: center;
     align-items: center;
 }
-li{
+.nav{
     display: inline;
 }
 a{
-   
     color: white;
     text-decoration: none;
 }
-ul{
+.nav-header{
     display: flex;
     justify-content: space-around;
     color: white;
     list-style: none;
 }
+ul{
+    color: white;
+    list-style: none;
+}
+
 img{
     width: 100%;
 }
@@ -39,8 +43,6 @@ img{
     text-align: left;
 }
 .menu{
-    
-    
     font-size: 10px;
     width: 300px;
     background-color: rgb(50, 97, 200);
@@ -50,6 +52,12 @@ img{
     background-color: rgb(50, 97, 200);
     text-align: right;
 }
+.bb{
+    background-color: black;
+    color: white;
+    width: 80px;
+    font-size: 5px;
+}
 input{
     background-color: white;
     border-radius: 10px;
@@ -57,25 +65,28 @@ input{
     padding: 5px 5px;
 }
 .show{
-    
     display: flex;
     justify-content: center;
     align-items: center;
     height: 170px;
 }
-
 .violet{
     background-image: url("img /jumbo.png");
     background-size: cover;
     background-color: violet;
     height: 170px;
     width: 450px;
-text-align: center;
     font-size: 10px;
     color: white;
-    display: flex;
-   justify-content: center;
-    
+}
+.xv{
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.pI{
+    font-size: 7px;
 }
 .containerflex{
     display: flex;
@@ -96,14 +107,12 @@ text-align: center;
     background-color: lightgrey;
 }
 .img{
-    
     height: 200px;
     width: 250px;
 }
 .text{
     text-align: left;
-    font-size: small;
-    
+    font-size: small; 
     height: 200px;
     width: 200px;
 }
@@ -123,9 +132,9 @@ text-align: center;
 }
 .ready{
     background-image: url("img /stars.svg");
-    height: 30px;
     background-size: contain;
-    margin-bottom: 30px;
+    
+    margin-bottom: 15px;
     
     
 }
@@ -146,7 +155,6 @@ text-align: center;
     height: 250px;
     margin-bottom: 30px;
 }
-
 strong{
     color: rgb(50, 97, 200);
     font-size: 20px;
@@ -178,17 +186,15 @@ span{
 .green-footer{
     font-size: small;
     padding-left: 3px;
-    
     width: 75px;
     height: 300px;
-    
 }
 .line{
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px;
     height: 1px;
-    background-color: lightgray;
-    width: calc(100%);
+    background-color: rgb(50, 97, 200); 
+    width: 450px;
 }
 .finale{
     display: flex;
@@ -199,7 +205,8 @@ span{
     margin-bottom: 0%;
 }
 .Bottomf{
-    background-color: rgb(50, 97, 200); ;
+    background-color: rgb(50, 97, 200); 
     color: white;
     padding: 5px;
 }
+
