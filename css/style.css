@@ -4,8 +4,11 @@
     box-sizing: border-box;
 
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
-    background-color: navy;
+    background-color: rgb(50, 97, 200);
     height: 220px;
 }
 .header-top{
@@ -33,7 +36,6 @@ ul{
     color: white;
     list-style: none;
 }
-
 img{
     width: 100%;
 }
@@ -52,11 +54,20 @@ img{
     background-color: rgb(50, 97, 200);
     text-align: right;
 }
+button{
+    margin-top: 5px;
+    border-radius: 9px;
+    border-style: none;
+    background-color: white;
+    padding: 5px 2px;
+    font-size: 5px;
+}
 .bb{
+    border-radius: 9px;
     background-color: black;
     color: white;
-    width: 80px;
     font-size: 5px;
+    padding: 5px 2px;   
 }
 input{
     background-color: white;
@@ -81,7 +92,7 @@ input{
 }
 .xv{
     text-align: center;
-    margin-top: 45px;
+    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -111,6 +122,7 @@ input{
     width: 250px;
 }
 .text{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     font-size: small; 
     height: 200px;
@@ -121,7 +133,7 @@ input{
     justify-content: center;
     align-items: center;
     background-color: lightgray;
-    height: 500px;
+    height: 530px;
 }
 .green{
     font-size: small;
@@ -131,12 +143,11 @@ input{
     height: 350px;
 }
 .ready{
+    
+    
     background-image: url("img /stars.svg");
     background-size: contain;
-    
     margin-bottom: 15px;
-    
-    
 }
 .footer-flex{
     background-color: rgb(45, 43, 43);
@@ -145,7 +156,6 @@ input{
     justify-content: center;
     align-items:center;
     height:430px;
-    
 }
 .final-step{
     display: flex;
@@ -161,18 +171,19 @@ strong{
 }
 span{
     color: rgb(50, 97, 200);
-    font-size: 15px;
+    font-size: 14px;
 }
 .red{
-    
     width: 150px;
     height: 300px;
     color: white;
 }
 .last{
     display: flex;
+    align-items: center;
     padding-top: 7px;
     padding-bottom: 7px;
+    font-size: 10px;
 }
 .ita{
     width: 11px;
@@ -189,6 +200,9 @@ span{
     width: 75px;
     height: 300px;
 }
+.spazio{
+    margin-top: 7px;
+}
 .line{
     margin-top: 15px;
     margin-bottom: 20px;
@@ -202,11 +216,22 @@ span{
     align-items: center;
     width: 450px;
     height: 30px;
-    margin-bottom: 0%;
 }
 .Bottomf{
     background-color: rgb(50, 97, 200); 
     color: white;
     padding: 5px;
 }
-
+.mac{
+    font-size: 10px;
+    padding: 5px 5px;
+    background-color: rgb(50, 97, 200); 
+    color: white;
+}
+.wave-1hkxO{
+    color: lightgray;
+    -webkit-transform: rotate(180deg);
+}
+.wave-1hkxOo{
+    color: lightgray;
+}
